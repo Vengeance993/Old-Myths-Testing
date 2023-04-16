@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+    <title>Myths of the Elysian</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="app.js"></script>
+
+  </head>
+  <body>
+    <div class="content">
+		<div class="menus">
+			<div class="main">
+				<button id="adventure">Go on an Adventure</button>
+				<button id="market">Visit Marketplace</button>
+			</div>
+
+			<div class="adventures">
+				<button id="wolves">Fight Wolves</button>
+				<button id="goblinScout">Fight Goblin Scouts</button>
+				<button id="returnA">Return to Town</button>
+			</div>
+
+			<div class="fight">
+				<p id="monsterLevel"></p>
+				<p id="monsterName"></p>
+				<p id="monHP">HP: 100</p>
+				<p id="playerHP">HP: 100</p>
+				<button id="basicAttack">Basic Attack</button>
+				<button id="flee">Flee</button>
+			</div>
+
+			<div class="endFight">
+				<p id="endMsg1">You have killed MonsterName.</p>
+				<p id="endMsg2">You earn 0 gold and 0 experience.</p>
+				<button id="anotherAdventure">Go on a Different Adventure</button>
+				<button id="refight">Fight again</button>
+				<button id="returnEF">Return to Town</button>
+			</div>
+
+			<div class="levelUp">
+				<p id="levelMsg1">You have leveled up!</p>
+				<p id="levelMsg2">You are now level 0!</p>
+				<button id="returnL">Go back</button>
+			</div>
+
+			<div class="marketplace">
+
+
+				<button id="returnM">Return to Town</button>
+			</div>
+		</div>
+
+		<div class="inventory">
+			<p id="gold">Gold: $0</p>
+			<p id="tier">Tier: 0</p>
+			<p id="level">Level: 0</p>
+			<p id="exp">Experience: 0</p>
+			<p id="expReq">Experience Required to Level: 0</p>
+		</div>
+
+	</div>
+  
+  </body>
+</html>
