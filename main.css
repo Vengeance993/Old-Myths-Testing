@@ -4,30 +4,8 @@
     width: 100%;
 }
 
-.marketplace{
+.marketplace, .adventures, .fight, .endFight, .levelUp, .statButtons, .character{
     display: none;
-}
-
-.adventures{
-    display: none;
-}
-
-.fight{
-    display: none;
-}
-
-.endFight{
-    display: none;
-}
-
-.levelUp{
-    display: none;
-}
-
-.sellButtons{
-    display: grid;
-    grid-template-columns: repeat(3, 72px);
-    margin-bottom: 10px;
 }
 
 .upgrades, .items button{
